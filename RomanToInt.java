@@ -1,6 +1,6 @@
 import java.util.Map;
 
-class RomatToInt {
+class RomanToInt {
 //	Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
 //
 //			Symbol       Value
@@ -22,13 +22,15 @@ class RomatToInt {
 //
 //	Given a roman numeral, convert it to an integer.
 	public static void main(String[] args) {
-		System.out.println(romanToInt("IV"));
+		System.out.println(romanToInt2("LVIII"));//58
+		System.out.println(romanToInt2("MCMXCIV"));//1994
+
 	}
 
-	public static Integer romanToInt(String s) {
+	public static Integer romanToInt(String string) {
+		//WRITE IMPLEMENTATION HERE
 		return null;
 	}
-
 
 	public static int romanToInt2(String s) {
 		Map<String, Integer> ROMAN_LETTERS_MAP = Map.of("I", 1,
